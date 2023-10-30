@@ -18,13 +18,13 @@
             :src="sneaker.imageUrl.image"
             alt="image of sneaker"
             class="mini-images"
-            @click="updateMainImage(sneaker.imageUrl.mainImage)"
+            @click="updateMainImage(sneaker.imageUrl.image)"
           />
           <img
             :src="sneaker.imageUrl.image1"
             alt="image of sneaker"
             class="mini-images"
-            @click="updateMainImage(sneaker.imageUrl.mainImage)"
+            @click="updateMainImage(sneaker.imageUrl.image1)"
           />
         </div>
       </div>
@@ -126,9 +126,10 @@ const fetchData = async () => {
 fetchData();
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 

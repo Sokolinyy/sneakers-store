@@ -1,7 +1,17 @@
 <template lang="">
-  <div class="grid-container">
+  <div class="container" v-if="sneakers.length">
+    <div>
+      <label>
+        <input type="checkbox" v-model="showMan" @change="filterSneakers" />
+        Muži
+      </label>
+      <label>
+        <input type="checkbox" v-model="showWoman" @change="filterSneakers" />
+        Ženy
+      </label>
+    </div>
     <ul class="sneakers" v-if="sneakers">
-      <li v-for="sneaker in sneakers" :key="sneaker.id">
+      <li v-for="sneaker in filteredSneakers" :key="sneaker.id">
         <div class="sneaker-item">
           <router-link
             :to="{ name: 'sneaker', params: { id: sneaker.id } }"
@@ -16,11 +26,15 @@
       </li>
     </ul>
   </div>
+  <div v-else>Loading...</div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { formatPrice } from "@/utils/sneakerUtils";
+import { useSneakerStore } from "@/stores/sneakerStore";
+
+const sneakerStore = useSneakerStore();
 
 export interface Sneaker {
   id: number;
@@ -33,9 +47,42 @@ export interface Sneaker {
     image1: string;
   };
   sizes: number[];
+  sex: string;
 }
 
+const showMan = ref(false); // Initially, show "man" items
+const showWoman = ref(false); // Initially, show "woman" items
 const sneakers = ref<Sneaker[]>([]);
+const notFound = ref("");
+
+// Filter sneakers by gender
+const filteredSneakers = computed(() => {
+  return sneakers.value.filter((sneaker) => {
+    const matchesSearchTerm = sneaker.name
+      .toLowerCase()
+      .includes(sneakerStore.searchTerm.toLowerCase());
+
+    if (!matchesSearchTerm) {
+      return false;
+    }
+
+    if (!showMan.value && !showWoman.value) {
+      return true; // Show all sneakers
+    } else if (showMan.value && sneaker.sex === "man") {
+      return true; // Show only "Man" sneakers
+    } else if (showWoman.value && sneaker.sex === "woman") {
+      return true; // Show only "Woman" sneakers
+    } else {
+      return false; // Hide sneakers that don't match the selected categories
+    }
+  });
+});
+
+const filterSneakers = () => {
+  // Trigger computed property update
+  const updatedSneakers = filteredSneakers.value;
+  // Perform any other necessary actions
+};
 
 const fetchData = async () => {
   const response = await fetch(
@@ -43,6 +90,7 @@ const fetchData = async () => {
   );
   const data = await response.json();
   sneakers.value = data;
+  console.log(data);
 };
 fetchData();
 </script>
@@ -50,9 +98,11 @@ fetchData();
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap");
 
-.grid-container {
+.container {
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
   .sneakers {
     display: grid;
     flex-wrap: wrap;

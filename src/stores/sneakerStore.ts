@@ -4,6 +4,8 @@ interface SneakerStoreState {
   chosenSize: number | null;
   quantity: number;
   cart: CartItem[];
+  totalPrice: number;
+  searchTerm: string;
 }
 
 export interface CartItem {
@@ -20,6 +22,8 @@ export const useSneakerStore = defineStore("sneaker", {
     chosenSize: 0,
     quantity: 1,
     cart: JSON.parse(localStorage.getItem("cart") || "[]"),
+    totalPrice: 0,
+    searchTerm: "",
   }),
   actions: {
     setChosenSize(size: number) {
@@ -31,9 +35,7 @@ export const useSneakerStore = defineStore("sneaker", {
     addToCart(item: CartItem) {
       const existingItem = this.cart.find(
         (cartItem) =>
-          cartItem.name === item.name &&
-          cartItem.price === item.price &&
-          cartItem.size === item.size
+          cartItem.name === item.name && cartItem.price === item.price
       );
 
       if (existingItem) {
@@ -54,7 +56,17 @@ export const useSneakerStore = defineStore("sneaker", {
         this.cart.splice(index, 1);
         // Update localStorage as well
         localStorage.setItem("cart", JSON.stringify(this.cart));
+
+        this.updateTotalPrice();
       }
+    },
+    updateTotalPrice() {
+      this.totalPrice = this.cart.reduce((total, item) => {
+        return total + item.price * item.quantity;
+      }, 0);
+    },
+    setSearchTerm(term: string) {
+      this.searchTerm = term;
     },
   },
 });

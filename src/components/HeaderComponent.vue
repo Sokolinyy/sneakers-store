@@ -2,10 +2,9 @@
   <nav class="header">
     <router-link to="/" class="logo">
       <p>Sneakers</p>
+      <img src="../assets/sneakerLogo3.PNG" alt="" />
     </router-link>
-    <div class="sex">
-      <h3 class="category">OBUV</h3>
-    </div>
+    <Search />
     <router-link to="/cart" class="cart">
       <i class="mdi mdi-cart"></i>
       <div v-if="sneakerStore.cart.length" class="quantity">
@@ -17,6 +16,8 @@
 
 <script lang="ts" setup>
 import { useSneakerStore } from "@/stores/sneakerStore";
+
+import Search from "./SearchBox.vue";
 
 const sneakerStore = useSneakerStore();
 </script>
@@ -37,6 +38,13 @@ const sneakerStore = useSneakerStore();
     color: black;
     text-decoration: none;
     font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      width: 90px;
+    }
   }
 
   .home-link {

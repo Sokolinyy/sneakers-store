@@ -1,0 +1,392 @@
+[
+  {
+    "id": "1",
+    "price": 5679,
+    "name": "4DFWD 3 M",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8985/images/thumbs_800/IG8985_1_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8985/images/thumbs_800/IG8985_2_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8985/images/thumbs_800/IG8985_3_800_800px.jpg.webp"
+    },
+    "sizes": [40, 42, 44],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "2",
+    "price": 4299,
+    "name": "GEL-NIMBUS 25",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B547-004/images/thumbs_800/1011B547-004_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B547-004/images/thumbs_800/1011B547-004_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B547-004/images/thumbs_800/1011B547-004_2_800_800px.jpg.webp"
+    },
+    "sizes": [43.5, 44],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "3",
+    "price": 3899,
+    "name": "CURRY 4 LOW FLOTRO CC",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026621-700/images/thumbs_800/3026621-700_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026621-700/images/thumbs_800/3026621-700_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026621-700/images/thumbs_800/3026621-700_2_800_800px.jpg.webp"
+    },
+    "sizes": [43, 44],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "4",
+    "price": 4779,
+    "name": "PROJECT ROCK 5",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026211-001/images/thumbs_800/3026211-001_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026211-001/images/thumbs_800/3026211-001_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026211-001/images/thumbs_800/3026211-001_2_800_800px.jpg.webp"
+    },
+    "sizes": [40.5, 42, 40, 41, 42.5],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "5",
+    "price": 4539,
+    "name": "HOVR PHANTOM 3 STORM",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3025522-002/images/thumbs_800/3025522-002_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3025522-002/images/thumbs_800/3025522-002_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3025522-002/images/thumbs_800/3025522-002_2_800_800px.jpg.webp"
+    },
+    "sizes": [40, 43],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "6",
+    "price": 4249,
+    "name": "NEW BALANCE - MORE",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORCO3/images/thumbs_800/MTMORCO3_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORCO3/images/thumbs_800/MTMORCO3_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORCO3/images/thumbs_800/MTMORCO3_3_800_800px.jpg.webp"
+    },
+    "sizes": [43, 44],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "7",
+    "price": 3999,
+    "name": "TERREX FREE HIKER 2",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG5/IG5459/images/thumbs_800/IG5459_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG5/IG5459/images/thumbs_800/IG5459_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IG5/IG5459/images/thumbs_800/IG5459_2_800_800px.jpg.webp"
+    },
+    "sizes": [43],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "8",
+    "price": 4779,
+    "name": "GT-1000 12 GTX",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B684-001/images/thumbs_800/1011B684-001_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B684-001/images/thumbs_800/1011B684-001_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1011B684-001/images/thumbs_800/1011B684-001_3_800_800px.jpg.webp"
+    },
+    "sizes": [46, 47, 44.5, 46.5, 44, 45],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "9",
+    "price": 4779,
+    "name": "AVRYN ",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP5/HP5968/images/thumbs_800/HP5968_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP5/HP5968/images/thumbs_800/HP5968_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP5/HP5968/images/thumbs_800/HP5968_2_800_800px.jpg.webp"
+    },
+    "sizes": [44],
+    "sex": "man",
+    "desc": "Pánská běžecká obuv"
+  },
+  {
+    "id": "10",
+    "price": 2659,
+    "name": "X9000L4",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ6/GZ6081/images/thumbs_800/GZ6081_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ6/GZ6081/images/thumbs_800/GZ6081_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ6/GZ6081/images/thumbs_800/GZ6081_3_800_800px.jpg.webp"
+    },
+    "sizes": [41, 42, 43],
+    "sex": "man",
+    "desc": "Pánské tréninkové boty"
+  },
+  {
+    "id": "11",
+    "price": 3374,
+    "name": "TERREX AGRAVIC FLOW 2 ",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HR1/HR1110/images/thumbs_800/HR1110_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HR1/HR1110/images/thumbs_800/HR1110_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HR1/HR1110/images/thumbs_800/HR1110_3_800_800px.jpg.webp"
+    },
+    "sizes": [42, 43, 44],
+    "sex": "man",
+    "desc": "Pánské tréninkové boty"
+  },
+  {
+    "id": "12",
+    "price": 3349,
+    "name": "MORE V3",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORLW3/images/thumbs_800/MTMORLW3_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORLW3/images/thumbs_800/MTMORLW3_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/MTM/MTMORLW3/images/thumbs_800/MTMORLW3_2_800_800px.jpg.webp"
+    },
+    "sizes": [42, 44.5],
+    "sex": "man",
+    "desc": "Pánská outdoorová obuv"
+  },
+  {
+    "id": "13",
+    "price": 3309,
+    "name": "SPAWN 5",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026285-101/images/thumbs_800/3026285-101_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026285-101/images/thumbs_800/3026285-101_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/302/3026285-101/images/thumbs_800/3026285-101_2_800_800px.jpg.webp"
+    },
+    "sizes": [43, 42.5, 40.5, 41],
+    "sex": "man",
+    "desc": "Pánská outdoorová obuv"
+  },
+  {
+    "id": "14",
+    "price": 3119,
+    "name": "TERREX HIKSTER LOW HIKING",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ5/GZ5720/images/thumbs_800/GZ5720_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ5/GZ5720/images/thumbs_800/GZ5720_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GZ5/GZ5720/images/thumbs_800/GZ5720_3_800_800px.jpg.webp"
+    },
+    "sizes": [40, 42, 43, 44],
+    "sex": "man",
+    "desc": "Pánská outdoorová obuv"
+  },
+  {
+    "id": "15",
+    "price": 2999,
+    "name": "NEW BALANCE - 480",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/BB4/BB480COA/images/thumbs_800/BB480COA_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/BB4/BB480COA/images/thumbs_800/BB480COA_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/BB4/BB480COA/images/thumbs_800/BB480COA_3_800_800px.jpg.webp"
+    },
+    "sizes": [45.5, 42, 43, 44, 46.5],
+    "sex": "man",
+    "desc": "Pánská outdoorová obuv"
+  },
+  {
+    "id": "16",
+    "price": 3499,
+    "name": "GEL-KAYANO 30 DÁMSKÁ BĚŽECKÁ OBUV",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B357-700/images/thumbs_800/1012B357-700_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B357-700/images/thumbs_800/1012B357-700_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B357-700/images/thumbs_800/1012B357-700_3_800_800px.jpg.webp"
+    },
+    "sizes": [37, 39, 40, 41.5, 38, 39.5],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "17",
+    "price": 3149,
+    "name": "GEL-KAYANO 29",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B272-402/images/thumbs_800/1012B272-402_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B272-402/images/thumbs_800/1012B272-402_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/101/1012B272-402/images/thumbs_800/1012B272-402_4_800_800px.jpg.webp"
+    },
+    "sizes": [40, 39.5],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "18",
+    "price": 2379,
+    "name": "SUPERCROSS 4 W",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47316500/images/thumbs_800/L47316500_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47316500/images/thumbs_800/L47316500_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47316500/images/thumbs_800/L47316500_2_800_800px.jpg.webp"
+    },
+    "sizes": [38, 39],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "19",
+    "price": 2399,
+    "name": "CHUCK TAYLOR ALL STAR MOVE PLATFORM",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/568/568497C/images/thumbs_800/568497C_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/568/568497C/images/thumbs_800/568497C_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/568/568497C/images/thumbs_800/568497C_3_800_800px.jpg.webp"
+    },
+    "sizes": [37, 38, 39.5, 41, 37.5, 39, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ LIFESTYLE TENISKY"
+  },
+  {
+    "id": "20",
+    "price": 2379,
+    "name": "ALPHACROSS 5 GTX W",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47311000/images/thumbs_800/L47311000_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47311000/images/thumbs_800/L47311000_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L47/L47311000/images/thumbs_800/L47311000_2_800_800px.jpg.webp"
+    },
+    "sizes": [38, 37.5, 28, 40, 41, 42],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY"
+  },
+  {
+    "id": "21",
+    "price": 2274,
+    "name": "NEW BALANCE - FUEL CELL PROPEL",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/WFC/WFCPRGB4/images/thumbs_800/WFCPRGB4_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/WFC/WFCPRGB4/images/thumbs_800/WFCPRGB4_2_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/WFC/WFCPRGB4/images/thumbs_800/WFCPRGB4_4_800_800px.jpg.webp"
+    },
+    "sizes": [38, 40, 41],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "22",
+    "price": 2249,
+    "name": "BRAVADA 2 WP",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/J03/J036910/images/thumbs_800/J036910_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/J03/J036910/images/thumbs_800/J036910_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/J03/J036910/images/thumbs_800/J036910_3_800_800px.jpg.webp"
+    },
+    "sizes": [39, 38, 38.5, 40, 41],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY"
+  },
+  {
+    "id": "23",
+    "price": 2123,
+    "name": "TERREX AX4 W",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8621/images/thumbs_800/GY8621_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8621/images/thumbs_800/GY8621_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8621/images/thumbs_800/GY8621_3_800_800px.jpg.webp"
+    },
+    "sizes": [37.5, 38, 38.5, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY"
+  },
+  {
+    "id": "24",
+    "price": 2099,
+    "name": "TERREX AX4",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HQ1/HQ1046/images/thumbs_800/HQ1046_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HQ1/HQ1046/images/thumbs_800/HQ1046_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HQ1/HQ1046/images/thumbs_800/HQ1046_3_800_800px.jpg.webp"
+    },
+    "sizes": [38, 39.5, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY"
+  },
+  {
+    "id": "25",
+    "price": 2999,
+    "name": "TERREX TRAILMAKER GORE-TEX",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP2/HP2081/images/thumbs_800/HP2081_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP2/HP2081/images/thumbs_800/HP2081_2_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP2/HP2081/images/thumbs_800/HP2081_3_800_800px.jpg.webp"
+    },
+    "sizes": [38, 38.5, 39, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY   "
+  },
+  {
+    "id": "26",
+    "price": 1749,
+    "name": "ALPHABOUNCE",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6147/images/thumbs_800/HP6147_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6147/images/thumbs_800/HP6147_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6147/images/thumbs_800/HP6147_2_800_800px.jpg.webp"
+    },
+    "sizes": [37, 39, 40],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "27",
+    "price": 1749,
+    "name": "TERREX TRAILMAKER",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IF4/IF4938/images/thumbs_800/IF4938_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IF4/IF4938/images/thumbs_800/IF4938_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/IF4/IF4938/images/thumbs_800/IF4938_2_800_800px.jpg.webp"
+    },
+    "sizes": [38, 39.5, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ OUTDOOROVÉ TENISKY"
+  },
+  {
+    "id": "28",
+    "price": 1799,
+    "name": "ALPHACROSS 4 W",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L41/L41725200/images/thumbs_800/L41725200_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L41/L41725200/images/thumbs_800/L41725200_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/L41/L41725200/images/thumbs_800/L41725200_3_800_800px.jpg.webp"
+    },
+    "sizes": [38, 37, 38.5, 40, 39, 40],
+    "sex": "woman",
+    "desc": "Dámská běžecká obuv"
+  },
+  {
+    "id": "29",
+    "price": 1799,
+    "name": "EX89 ",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/120/1202A428-100/images/thumbs_800/1202A428-100_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/120/1202A428-100/images/thumbs_800/1202A428-100_2_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/120/1202A428-100/images/thumbs_800/1202A428-100_3_800_800px.jpg.webp"
+    },
+    "sizes": [39, 38],
+    "sex": "woman",
+    "desc": "DÁMSKÉ LIFESTYLE TENISKY"
+  },
+  {
+    "id": "30",
+    "price": 1799,
+    "name": "NANO X2 TR ADVENTURE",
+    "imageUrl": {
+      "mainImage": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8905/images/thumbs_800/GY8905_800_800px.jpg.webp",
+      "image": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8905/images/thumbs_800/GY8905_1_800_800px.jpg.webp",
+      "image1": "https://www.a3sport.cz/files/thumbs/files/images/slike_proizvoda/media/GY8/GY8905/images/thumbs_800/GY8905_3_800_800px.jpg.webp"
+    },
+    "sizes": [38, 39, 38.5, 40],
+    "sex": "woman",
+    "desc": "DÁMSKÉ TRÉNINKOVÉ BOTY"
+  }
+]
