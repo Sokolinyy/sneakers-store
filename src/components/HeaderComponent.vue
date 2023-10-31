@@ -1,7 +1,7 @@
 <template lang="">
   <nav class="header">
     <router-link to="/" class="logo">
-      <p>Sneakers</p>
+      <p>Tenisky</p>
       <img src="../assets/sneakerLogo3.PNG" alt="" />
     </router-link>
     <Search />
@@ -23,6 +23,24 @@ const sneakerStore = useSneakerStore();
 </script>
 
 <style lang="scss">
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 530px) {
+    @content;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -34,6 +52,11 @@ const sneakerStore = useSneakerStore();
   background-color: white;
   width: 100%;
 
+  @include phone {
+    justify-content: space-around;
+    padding: 10px;
+  }
+
   .logo {
     color: black;
     text-decoration: none;
@@ -44,6 +67,14 @@ const sneakerStore = useSneakerStore();
 
     img {
       width: 90px;
+
+      @include phone {
+        width: 40px;
+      }
+    }
+
+    @include phone {
+      font-size: 13px;
     }
   }
 
@@ -65,6 +96,8 @@ const sneakerStore = useSneakerStore();
   }
 
   .cart {
+    display: flex;
+    align-items: center;
     position: relative;
     .mdi {
       font-size: 30px;
@@ -82,6 +115,9 @@ const sneakerStore = useSneakerStore();
       width: 15px;
       border-radius: 10px;
       font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }

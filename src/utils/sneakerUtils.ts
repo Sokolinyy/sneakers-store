@@ -17,5 +17,5 @@ export const formatPrice = (price: number) => {
   }
 
   // Handle the case where price is undefined or not a number
-  return "Loading...";
+  return "Načítání...";
 };

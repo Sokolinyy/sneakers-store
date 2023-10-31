@@ -9,7 +9,7 @@ import Header from "./components/HeaderComponent.vue";
 
 <style lang="scss">
 body {
-  margin-top: 85px;
+  margin-top: 95px;
   background-color: rgb(243, 243, 243);
 }
 

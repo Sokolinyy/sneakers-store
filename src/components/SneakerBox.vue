@@ -1,6 +1,6 @@
 <template lang="">
   <div class="container" v-if="sneakers.length">
-    <div>
+    <div v-if="filteredSneakers.length > 0">
       <label>
         <input type="checkbox" v-model="showMan" @change="filterSneakers" />
         Muži
@@ -9,6 +9,9 @@
         <input type="checkbox" v-model="showWoman" @change="filterSneakers" />
         Ženy
       </label>
+    </div>
+    <div v-if="filteredSneakers.length === 0" class="not-found-msg">
+      <p>Nic nebylo nalezeno, zkuste změnit dotaz</p>
     </div>
     <ul class="sneakers" v-if="sneakers">
       <li v-for="sneaker in filteredSneakers" :key="sneaker.id">
@@ -26,7 +29,7 @@
       </li>
     </ul>
   </div>
-  <div v-else>Loading...</div>
+  <div v-else class="loading">Načítání...</div>
 </template>
 
 <script lang="ts" setup>
@@ -53,11 +56,10 @@ export interface Sneaker {
 const showMan = ref(false); // Initially, show "man" items
 const showWoman = ref(false); // Initially, show "woman" items
 const sneakers = ref<Sneaker[]>([]);
-const notFound = ref("");
 
-// Filter sneakers by gender
+// Filter sneakers by gender and search result
 const filteredSneakers = computed(() => {
-  return sneakers.value.filter((sneaker) => {
+  const filtered = sneakers.value.filter((sneaker) => {
     const matchesSearchTerm = sneaker.name
       .toLowerCase()
       .includes(sneakerStore.searchTerm.toLowerCase());
@@ -76,6 +78,8 @@ const filteredSneakers = computed(() => {
       return false; // Hide sneakers that don't match the selected categories
     }
   });
+
+  return filtered;
 });
 
 const filterSneakers = () => {
@@ -98,11 +102,42 @@ fetchData();
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap");
 
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 530px) {
+    @content;
+  }
+}
+
 .container {
   width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+
+  @include phone {
+    width: 95%;
+  }
+
+  .not-found-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+  }
   .sneakers {
     display: grid;
     flex-wrap: wrap;
@@ -110,6 +145,16 @@ fetchData();
     grid-gap: 15px;
     list-style: none;
     text-align: left;
+
+    @include laptop {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include phone {
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      padding: 0;
+    }
 
     .sneaker-item {
       border: 1px solid transparent;
@@ -151,5 +196,12 @@ fetchData();
       margin: 10px;
     }
   }
+}
+.loading {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

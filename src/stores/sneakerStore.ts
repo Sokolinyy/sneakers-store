@@ -35,7 +35,9 @@ export const useSneakerStore = defineStore("sneaker", {
     addToCart(item: CartItem) {
       const existingItem = this.cart.find(
         (cartItem) =>
-          cartItem.name === item.name && cartItem.price === item.price
+          cartItem.name === item.name &&
+          cartItem.price === item.price &&
+          cartItem.size === item.size
       );
 
       if (existingItem) {

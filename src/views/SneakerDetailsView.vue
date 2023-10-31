@@ -43,7 +43,7 @@
       <br />
       <br />
       <div v-if="showError" class="error-message">
-        Please select a size before adding to the cart.
+        Prosím vyberte velikost před přidáním do košíku.
       </div>
       <p>Množství:</p>
       <input
@@ -127,11 +127,36 @@ fetchData();
 </script>
 
 <style lang="scss" scoped>
+@mixin laptop {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+
+  @include laptop {
+    flex-direction: column;
+  }
+
+  @include phone {
+    flex-direction: column;
+  }
 
   .images {
     display: flex;
@@ -229,5 +254,6 @@ fetchData();
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
